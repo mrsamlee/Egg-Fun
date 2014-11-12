@@ -1,0 +1,7 @@
+name: ProjectileParticalExplosion
+main: com.weeshna.EggParticalExplosion.Main
+version: 0.0
+commands:
+   EggTNT:
+      description: Eggs explode when thrown
+      usage: /<command>
