@@ -1,6 +1,6 @@
 name: EggFun
-main: com.weeshna.EggBomb.Main
-version: 0.0
+main: com.weeshna.EggFun.Main
+version: 1.0
 commands:
    Egg:
       description: All commands for Egg

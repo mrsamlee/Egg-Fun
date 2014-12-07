@@ -1,5 +1,4 @@
-package com.weeshna.EggBomb;
-
+package com.weeshna.EggFun;
 
 import org.bukkit.Sound;
 import org.bukkit.event.EventHandler;

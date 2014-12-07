@@ -1,4 +1,4 @@
-package com.weeshna.EggBomb;
+package com.weeshna.EggFun;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
