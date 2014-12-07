@@ -1,4 +1,4 @@
-Partical-Egg-Bomb-Mini-Game
+Egg Fun (Bukkit 1.7.10)
 ===========================
-This plugin allows players to turn eggs into grenades.
-The command to activate this plugin is "/eggTNT".
+This minecraft plugin changes the properties of eggs.
+Purpose: 
