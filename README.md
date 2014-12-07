@@ -11,6 +11,8 @@ EggFun is a plugin for Minecraft that
   -Includes a minigame/practice arena for egg teleport
   
   -Descriptions for each command in the help menu
+  
+  -'/egg' commands toggle (calling /egg tnt again will toggle the command off)
 
 Installation
 ===========================
