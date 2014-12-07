@@ -3,6 +3,7 @@ Egg Fun (Bukkit 1.7.10)
 EggFun is a plugin for Minecraft with Bukkit 1.7.10 that 
 
   -Changes the properties of eggs to 
+  
     1) explode on impact
  or 2)teleport player on impact location
 
