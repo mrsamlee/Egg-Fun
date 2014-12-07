@@ -1,7 +1,8 @@
-name: ProjectileParticalExplosion
-main: com.weeshna.EggParticalExplosion.Main
+name: EggFun
+main: com.weeshna.EggBomb.Main
 version: 0.0
 commands:
-   EggTNT:
-      description: Eggs explode when thrown
-      usage: /<command>
+   Egg:
+      description: All commands for Egg
+   Arena:
+      description: All commands for Arena

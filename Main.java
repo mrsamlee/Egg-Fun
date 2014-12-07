@@ -1,28 +1,23 @@
-package com.weeshna.EggParticalExplosion;
+package com.weeshna.EggBomb;
 
+import java.util.ArrayList;
 import org.bukkit.Bukkit;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.PlayerInventory;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin{
+	public ArrayList<Player> TNTplayers;
+	public ArrayList<Player> TeleportPlayers;
+	public ArrayList<Player> ArenaPlayers;
 	
 	public void onEnable(){
-		Bukkit.getServer().getPluginManager().registerEvents(new EggListener(), this);
+		
+		TNTplayers = new ArrayList<Player>();
+		TeleportPlayers = new ArrayList<Player>();	
+		ArenaPlayers = new ArrayList<Player>();
+		Bukkit.getServer().getPluginManager().registerEvents(new EggListener(this), this);
+		getCommand("Egg").setExecutor(new EggHandler(this));
+		getCommand("Arena").setExecutor(new ArenaHandler(this));
 	}
 
-	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
-		Player p = (Player) sender;
-		
-		if(cmd.getName().equalsIgnoreCase("EggTNT")){
-			p.sendMessage("Eggs are now bombs!");
-			p.sendMessage("Test Video for CS185C project - Samson Lee");
-			
-			return true;
-		}
-		return false;	
-	}
 }
