@@ -8,7 +8,7 @@ EggFun is a plugin for Minecraft that
     or 
     2)teleport player to impact location
 
-  -Includes a minigame/practice arena for egg teleport
+  -Includes commands to enter minigame arena for egg teleport practice
   
   -Descriptions for each command in the help menu
   
