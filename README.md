@@ -10,4 +10,6 @@ EggFun is a plugin for Minecraft with Bukkit 1.7.10 that
 
   -Includes a minigame/practice arena
 
-To install: Download the EggFun.jar file into minecraft plugin folder, or compile the source code & plugin.yml file into a jar file and place into minecraft plugin folder.
+Installation
+===========================
+Download the EggFun.jar file into minecraft plugin folder, or compile the source code & plugin.yml file into a jar file and place into minecraft plugin folder.
