@@ -9,10 +9,11 @@ EggFun is a plugin for Minecraft that
     2)teleport player on impact location
 
   -Includes a minigame/practice arena for egg teleport
+  -Descriptions for each command in the help menu
 
 Installation
 ===========================
-Download the EggFun.jar file into minecraft plugin folder, or compile the source code & plugin.yml file into a jar file and place into minecraft plugin folder.
+Download the EggFun.jar file into minecraft server's plugin folder, or compile the source code & plugin.yml file into a jar file and place into minecraft server's plugin folder.
 
 Requirements
 =========
